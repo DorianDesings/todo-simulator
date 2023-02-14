@@ -6,9 +6,6 @@ import TodoList from '../todoList/TodoList';
 const TodoListContainer = () => {
 	const [allTasks, setAllTasks] = useState([]);
 	const [filter, setFilter] = useState(0);
-	// 0 -> Muestra todas
-	// 1 -> Muestra sólo completas
-	// 2 -> Muestra sólo incompletas
 
 	return (
 		<>
